@@ -101,5 +101,18 @@ body {
   background: rgb(220, 220, 220);
 }
 
+.lowerSide{
+  padding: 2rem;
+  display: flex;
+}
+
+.listItem{
+  margin: 1rem;  
+  font-size: 1.3rem;
+}
+
+.listItemImg{
+  margin-left: 2rem;
+}
 
 
