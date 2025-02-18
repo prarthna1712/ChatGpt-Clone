@@ -21,8 +21,8 @@ body {
 }
 
 .sideBar {
-  width: 250px;  
-  min-width: 250px; 
+  width: 350px;  
+  /* min-width: 250px;  */
   height: 100vh; 
   border-right: 2px solid rgb(122, 121, 121); 
   background-color: rgb(20, 20, 50); 
@@ -55,4 +55,16 @@ body {
   display: flex;
  align-items: center;
  margin-bottom: 2.5rem;
+ 
+}
+
+.addbtn{
+  resize: 2rem;
+  padding-right: 1rem;
+}
+.midbtn{
+  background: #5a4bff;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
 }
