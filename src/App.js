@@ -14,6 +14,7 @@ function App() {
           <div className="upperSideTop">
             <img src={gptlogo} alt="logo" className="logo" />
             <span className="brand">ChatGPT</span>
+
             <button className="midbtn">
               <img src={addBtn} alt="Newchat" className="addbtn" />
               New Chat
