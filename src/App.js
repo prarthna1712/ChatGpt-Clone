@@ -15,7 +15,7 @@ function App() {
             <img src={gptlogo} alt="logo" className="logo" />
             <span className="brand">ChatGPT</span>
             <button className="midbtn">
-              <img src={addBtn} alt="Newchat" className="addBtn" />
+              <img src={addBtn} alt="Newchat" className="addbtn" />
               New Chat
             </button>
           </div>
