@@ -45,6 +45,7 @@ body {
 .brand{
   font-size: 2rem;
   margin-top: 0.5rem;
+  margin-right: 15px;
 }
 .upperSide{
   padding: 2.5rem;
