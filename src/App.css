@@ -112,7 +112,11 @@ body {
 }
 
 .listItemImg{
-  margin-left: 2rem;
+  margin-left: 0.75rem;
+  display: flexbox;
+  align-items: center;
+  font-size: 1.3rem;
+
 }
 
 
