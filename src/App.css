@@ -106,17 +106,25 @@ body {
   display: flex;
 }
 
-.listItem{
+.listItems{
   margin: 1rem;  
   font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
 }
 
 .listItemImg{
-  margin-left: 0.75rem;
-  display: flexbox;
-  align-items: center;
-  font-size: 1.3rem;
+  padding-left: 1rem;
+}
+
+.listItems:nth-child(1)>.listItemImg{
+  margin-right: 0.5rem;
 
 }
 
+.listItems:nth-child(3)>.listItemImg{
+  margin-right: 0.5rem;
+  
+}
 
