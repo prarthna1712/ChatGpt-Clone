@@ -61,6 +61,7 @@ function App() {
               <img src={sendBtn} alt="Send" />
             </button>
           </div>
+          <p>ChatGPT can make mistakes. Check important info.</p>
         </div>
       </div>
     </div>
