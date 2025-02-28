@@ -134,6 +134,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 6rem 10rem;
+  margin: 0;
 }
 
 .chatFooter{
@@ -150,7 +151,7 @@ body {
   display: flex;
   align-items: center;
   border-radius: 0.5rem;
-  width: 70rem;
+  width: 80rem;
 }
 
 .inp>input{
@@ -162,4 +163,8 @@ body {
 .inp>input, .send{
   background: transparent;
   border: none;
+}
+
+.chatFooter>p{
+  margin: 2rem 0;
 }
