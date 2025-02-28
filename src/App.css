@@ -137,7 +137,6 @@ body {
 }
 
 .chatFooter{
-  width: 100vh;
   margin-top: auto;
   display: flex;
   flex-direction: column;
@@ -148,8 +147,18 @@ body {
 .inp{
   padding: 0.5rem;
   background: rgba(28,30,58,1);
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 70rem;
 }
 
+.inp>input{
+  width: calc(100% - 3rem);
+  outline: none;
+  padding: 1.25rem;
+  color: white;
+}
 .inp>input, .send{
   background: transparent;
   border: none;
