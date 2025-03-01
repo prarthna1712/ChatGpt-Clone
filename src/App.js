@@ -47,10 +47,22 @@ function App() {
       <div className="main">
         <div className="chats">
           <div className="chat">
-            <img src={userIcon} alt="" /> <p className="txt"></p>
+            <img className="chatImg" src={userIcon} alt="" />{" "}
+            <p className="txt"></p>
           </div>
-          <div className="chat">
-            <img src={gptImgLogo} alt="" /> <p className="txt"></p>
+          <div className="chat bot">
+            <img className="chatImg" src={gptImgLogo} alt="" />{" "}
+            <p className="txt">
+              ChatGPT is an advanced artificial intelligence language model
+              developed by OpenAI, capable of generating human-like text
+              responses to a wide range of prompts and questions, making it a
+              versatile tool for conversation, creative writing, information
+              retrieval, and code generation; users can interact with ChatGPT
+              through a simple chat interface, providing prompts on any topic to
+              receive detailed and informative answers, making it a powerful
+              tool for learning, brainstorming, and even generating different
+              creative text formats like poems, scripts, or emails.
+            </p>
           </div>
         </div>
         <div className="chatFooter">

@@ -168,8 +168,7 @@ body {
 .chats{
   overflow: hidden;
   scroll-behavior: smooth;
-  width: 100%;
-  max-width: 80rem;
+  width: 80rem;
   height: calc( 100vh - 17rem);
 }
 
@@ -179,8 +178,26 @@ body {
   font-size: 12rem;
   display: flex;
   align-items: flex-start;
+  text-align: justify;
+}
 
+.chatImg{
+  object-fit: cover;
+  width: 3.5rem;
+  margin-right: 2rem;
+  border-radius: 0.5rem;
 }
 .chatFooter>p{
   margin: 2rem 0;
+}
+
+.txt{
+  font-size: 1.2rem;
+}
+
+.bot{
+  background: rgb(17, 20, 62);
+  width: fit-content;
+  border-radius: 0.5rem;
+
 }
