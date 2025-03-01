@@ -6,7 +6,7 @@ import home from "../src/assets/home.svg";
 import saved from "../src/assets/bookmark.svg";
 import rocket from "../src/assets/rocket.svg";
 import sendBtn from "../src/assets/send.svg";
-import userIcon from "../src/assets/user-icon.png";
+import userIcon from "../src/assets/passportsizeprofilepic.jpeg";
 import gptImgLogo from "../src/assets/chatgptLogo.svg";
 function App() {
   return (
@@ -48,7 +48,7 @@ function App() {
         <div className="chats">
           <div className="chat">
             <img className="chatImg" src={userIcon} alt="" />{" "}
-            <p className="txt"></p>
+            <p className="txt">What is ChatGPT?</p>
           </div>
           <div className="chat bot">
             <img className="chatImg" src={gptImgLogo} alt="" />{" "}
